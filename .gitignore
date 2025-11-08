@@ -1,0 +1,74 @@
+# Compiled object files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.eep
+*.map
+*.lst
+*.out
+*.a
+*.d
+*.so
+
+# Build and cache directories
+build/
+.cache/
+.pio/
+.pioenvs/
+.piolibdeps/
+.arduino-build/
+.arduino15/
+arduino_build_*/
+tmp/
+*.tmp
+
+# VS Code / PlatformIO
+.vscode/
+.vscode/*
+*.code-workspace
+
+# Logs and debug files
+*.log
+*.bak
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Python cache (for scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Library folders (optional, if using Library Manager)
+libraries/*/
+!libraries/README.md
+
+# Ignore backup or autosave files
+*~
+*.autosave
+
+# Ignore uploaded credentials or secrets
+secrets.h
+config.h
+.env
+*.key
+*.pem
+*.crt
+
+# Ignore temporary Arduino files
+*.ino.cpp
+*.ino.hex
+*.ino.bin
+*.ino.elf
+
+# Ignore memory dumps
+*.core
+*.stackdump

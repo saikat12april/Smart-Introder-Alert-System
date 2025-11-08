@@ -1,0 +1,13 @@
+# Normalize line endings across OS
+* text=auto
+
+# Treat Arduino sketches as C++
+*.ino text diff=cpp
+*.cpp text diff=cpp
+*.h text diff=cpp
+
+# UTF-8 encoding for all
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.html text eol=lf
